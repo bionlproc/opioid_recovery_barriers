@@ -58,25 +58,25 @@ To run the main pipeline, execute:
 
 The main pipeline performs the following steps:
 
-**1.Extract Finalized Barriers:** Processes input posts and extracts barriers to recovery in a multi-step process.
+**1. Extract Finalized Barriers:** Processes input posts and extracts barriers to recovery in a multi-step process.
 
-**2.Generate Individual Barriers DataFrame:** Cleans and splits finalized barriers into individual entries.
+**2. Generate Individual Barriers DataFrame:** Cleans and splits finalized barriers into individual entries.
 
-**3.Generate Literature Barrier Embeddings:** Generates embeddings from ```data/barriers_to_recovery_lit.txt ``` file of literature derived barriers.
+**3. Generate Literature Barrier Embeddings:** Generates embeddings from ```data/barriers_to_recovery_lit.txt ``` file of literature derived barriers.
 
-**4.Generate Barrier Embeddings from Posts:** Creates embeddings for each individual barrier.
+**4. Generate Barrier Embeddings from Posts:** Creates embeddings for each individual barrier.
 
-**5.Classify Barriers:** Compares barrier embeddings with literature embeddings to classify them.
+**5. Classify Barriers:** Compares barrier embeddings with literature embeddings to classify them.
 
-**6.Initial Clustering:** Clusters the classified barrier embeddings using agglomerative hierarchical clustering.
+**6. Initial Clustering:** Clusters the classified barrier embeddings using agglomerative hierarchical clustering.
 
-**7.Generate Keyphrases and Filter Clusters:** Generate keyphrases for the initial clusters generated in ```6.```. Filters clusters to remove those without meaningful barriers.
+**7. Generate Keyphrases and Filter Clusters:** Generate keyphrases for the initial clusters generated in ```6.```. Filters clusters to remove those without meaningful barriers.
 
-**8.Generate Keyphrase Embeddings:** Computes keyphrase embeddings for the keyphrases generated for each cluster.
+**8. Generate Keyphrase Embeddings:** Computes keyphrase embeddings for the keyphrases generated for each cluster.
 
-**9.Secondary Clustering:** Refines clusters by combining barrier and keyphrase embeddings.
+**9. Secondary Clustering:** Refines clusters by combining barrier and keyphrase embeddings.
 
-**10.Generate Cluster Descriptors:** Produces concise, human-readable descriptors for each cluster.
+**10. Generate Cluster Descriptors:** Produces concise, human-readable descriptors for each cluster.
 
 
 ### Running Temporal Analysis
