@@ -11,7 +11,7 @@ src/__pycache__
 temp_data/
 
 # Ignore the temp_data folder and its contents
-data/
+# data/
 
 # Ignore the specific API key file
 data/api_keys/api_key.txt
