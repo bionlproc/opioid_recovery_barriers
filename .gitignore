@@ -1,18 +1,22 @@
 # Ignore the .vev folder and its contents
-.vev/
+.venv/
 
 # Ignore the .idea folder and its contents
 .idea/
 
 # Ignore Python cache files
-_pyccache_/
+src/_pyccache_/
 
 # Ignore the temp_data folder and its contents
 temp_data/
 
+# Ignore the temp_data folder and its contents
+data/
+
+
 # Ignore the specific API key file
-api_keys/api_key.txt
+data/api_keys/api_key.txt
 
 # Ignore the test and rank_clusters files
-src/test
-src/rank_clusters
+src/test.py
+src/rank_clusters.py
