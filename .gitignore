@@ -5,7 +5,7 @@
 .idea/
 
 # Ignore Python cache files
-src/_pycache_/
+src/__pycache__
 
 # Ignore the temp_data folder and its contents
 temp_data/
