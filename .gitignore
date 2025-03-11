@@ -5,14 +5,13 @@
 .idea/
 
 # Ignore Python cache files
-src/_pyccache_/
+src/_pycache_/
 
 # Ignore the temp_data folder and its contents
 temp_data/
 
 # Ignore the temp_data folder and its contents
 data/
-
 
 # Ignore the specific API key file
 data/api_keys/api_key.txt
