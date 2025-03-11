@@ -16,6 +16,9 @@ temp_data/
 # Ignore the specific API key file
 data/api_keys/api_key.txt
 
+# Ignore the dendogram HTML file
+data/images/interactive_dendrogram_keyphrase_0.3.html
+
 # Ignore the test and rank_clusters files
 src/test.py
 src/rank_clusters.py
